@@ -1,0 +1,68 @@
+
+.sub-view {
+    padding: 20px;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+}
+
+.head {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.table-container {
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+.MuiTable-root {
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+
+.MuiTableCell-root {
+    border: none;
+}
+
+.MuiTableHead-root {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.MuiTableCell-head {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.MuiTableBody-root {
+    background-color: #fff;
+}
+
+.MuiTableRow-root {
+    transition: background-color 0.3s ease;
+}
+
+.MuiTableRow-root:hover {
+    background-color: #e0e0e0;
+}
+
+.MuiButton-root {
+    margin: 5px;
+}
+
+.MuiButton-containedSuccess {
+    background-color: #4caf50;
+}
+
+.MuiButton-containedError {
+    background-color: #f44336;
+}
+
+.alert {
+    color: #f44336;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 20px;
+}
